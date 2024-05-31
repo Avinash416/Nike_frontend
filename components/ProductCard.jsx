@@ -17,7 +17,7 @@ const ProductCard = ({ data: { attributes: p, id }, showRemoveButton }) => {
     const removedFromWishlist = () => {
         toast.success("Product removed from Wishlist", {
             position: "bottom-right",
-            autoClose: 1500,
+            autoClose: 800,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true,
