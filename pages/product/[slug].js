@@ -24,7 +24,7 @@ const ProductDetails = ({ product, products }) => {
     const notify = (message) => {
         toast.success(message, {
             position: "bottom-right",
-            autoClose: 5000,
+            autoClose: 1500,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true,
@@ -71,7 +71,7 @@ const ProductDetails = ({ product, products }) => {
 
     return (
         <div className="w-full md:py-20">
-            <ToastContainer />
+            // <ToastContainer />
             <Wrapper>
                 <div className="flex flex-col lg:flex-row md:px-10 gap-[50px] lg:gap-[100px]">
                     {/* left column start */}
