@@ -24,7 +24,7 @@ const ProductDetails = ({ product, products }) => {
     const notify = (message) => {
         toast.success(message, {
             position: "bottom-right",
-            autoClose: 1500,
+            autoClose: 800,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true,
